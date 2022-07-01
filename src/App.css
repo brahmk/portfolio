@@ -1,38 +1,61 @@
+/* .homepage-bgimage {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  z-index: 0;
+} */
+
 .App {
-  text-align: center;
+  /* background-image: url(./splasher.png);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  z-index: 0; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+element::-webkit-scrollbar {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes wheelspin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+/* .contact {
+  z-index: 3;
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 150px;
+  position: absolute;
+  top: -559px;
+  left: 1211px;
+}
+
+.tarot {
+  z-index: 3;
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 150px;
+  position: absolute;
+  top: -559px;
+  left: 1211px;
+} */
+.contact:hover {
+  filter: brightness(120%);
 }
