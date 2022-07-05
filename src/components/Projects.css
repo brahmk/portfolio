@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+
+.projects {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/projects.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Zenda";
+  margin-left: 40%;
+  font-size: 100px;
+  margin-top: 3%;
+  position: absolute;
+  color: darkred;
+  text-decoration: underline;
+}
+
+.card-box {
+  position: absolute;
+  margin-left: 21%;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 800px;
+  gap: 5px;
+}
+
+.card-box a {
+  opacity: 1;
+  margin-top: 0px;
+}
+.card-box h2 {
+  opacity: 1;
+  margin-bottom: 0px;
+}
+.card1 {
+  background-image: url("../img/card-creach.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Sorts Mill Goudy";
+  height: 390px;
+  width: 250px;
+  font-weight: 500;
+}
+.card2 {
+  background-image: url("../img/card-weather.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Sorts Mill Goudy";
+  height: 390px;
+  width: 250px;
+}
+
+.card3 {
+  background-image: url("../img/card-snake-slim.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Sorts Mill Goudy";
+  height: 390px;
+  width: 250px;
+}
+
+.card4 {
+  background-image: url("../img/card-owl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Sorts Mill Goudy";
+  height: 390px;
+  width: 250px;
+}
+.text-box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.glyphs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100px;
+  position: absolute;
+  margin-top: 20%;
+}
+
+#glyph1 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  animation: rotate 50s linear infinite forwards;
+  margin-left: 10%;
+  margin-top: 40%;
+  opacity: 0.8;
+}
+#glyph2 {
+  height: 100px;
+  width: 100px;
+  animation: rotate 20s linear infinite reverse;
+}
+
+#glyph3 {
+  height: 100px;
+  width: 100px;
+  animation: rotate 20s linear infinite forwards;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Zenda";
+  src: url(../fonts/zenda.ttf);
+}
+
+@font-face {
+  font-family: "Goudy";
+  src: url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}

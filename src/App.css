@@ -56,6 +56,3 @@ element::-webkit-scrollbar {
   top: -559px;
   left: 1211px;
 } */
-.contact:hover {
-  filter: brightness(120%);
-}

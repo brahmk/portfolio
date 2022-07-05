@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+
+.contact {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.contact-card {
+  background-image: url(../img/contact-card-splat.png);
+  height: 690px;
+  width: 550px;
+  margin-left: 30%;
+  margin-top: 2%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.links-box {
+  position: relative;
+  margin-top: 55%;
+  margin-left: 10%;
+  font-family: "";
+  font-family: "Sorts Mill Goudy";
+}
+
+.links-box a {
+  font-family: "Sorts Mill Goudy";
+  font-weight: 800;
+  text-decoration: none;
+}

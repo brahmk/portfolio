@@ -1,0 +1,35 @@
+.navbox-wrapper {
+  margin-left: 81%;
+  margin-top: 2.5%;
+  z-index: 5;
+  position: absolute;
+  font-size: 36px;
+  font-family: "Zenda";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #e1d5bf;
+  text-decoration: none;
+  font-size: 65px;
+  align-items: center;
+  padding: 10px;
+  text-shadow: 2px 2px #83714f;
+}
+
+a {
+  text-decoration: none;
+  color: #a54730;
+  opacity: 0.65;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+a:hover {
+  color: #713e32;
+}
+
+@font-face {
+  font-family: "Zenda";
+  src: url(../fonts/zenda.ttf);
+}

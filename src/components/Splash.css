@@ -6,14 +6,16 @@
 
   z-index: -1;
   height: 100vh;
+  overflow-x: hidden;
   animation: upward 20s linear infinite reverse;
 }
 
 .splash {
   height: 100vh;
   width: 100vw;
-  background-image: url(../img/splasher-empty.png);
+  background-image: url(../img/splasher-empty2.png);
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .skeleton {
@@ -23,6 +25,7 @@
   margin-left: 4%;
   height: 300px;
   width: 300px;
+  opacity: 0.8;
 }
 
 @keyframes float {
@@ -39,7 +42,7 @@
 
 .main {
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 @keyframes upward {
   from {
