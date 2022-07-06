@@ -1,8 +1,11 @@
 import "./Contact.css";
 import NavBox from "./NavBox";
+
+import sculptor from "../img/sculptor.png";
 export default function Contact() {
   return (
     <div className="contact" id="contact">
+      <img src={sculptor} id="sculptor" />
       <NavBox />
       <div className="contact-card">
         <div className="links-box">

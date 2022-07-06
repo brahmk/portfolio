@@ -27,7 +27,15 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 800px;
-  gap: 5px;
+  height: 95vh;
+  align-content: flex-start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 20%;
 }
 
 .card-box a {
@@ -40,45 +48,69 @@ h1 {
 }
 .card1 {
   background-image: url("../img/card-creach.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
-  height: 390px;
-  width: 250px;
+  height: 53%;
+  width: 33%;
   font-weight: 500;
+  position: relative;
 }
 .card2 {
   background-image: url("../img/card-weather.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
-  height: 390px;
-  width: 250px;
+  height: 52%;
+  width: 33%;
+  position: relative;
 }
 
 .card3 {
   background-image: url("../img/card-snake-slim.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
-  height: 390px;
-  width: 250px;
+  height: 52%;
+  width: 35%;
 }
 
 .card4 {
   background-image: url("../img/card-owl.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
-  height: 390px;
-  width: 250px;
+  height: 52%;
+  width: 33%;
+  position: relative;
+}
+
+.card5 {
+  background-image: url("../img/card-frog.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Sorts Mill Goudy";
+  height: 52%;
+  width: 33%;
+  position: relative;
+}
+
+.card6 {
+  background-image: url("../img/card-tree.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Sorts Mill Goudy";
+  height: 52%;
+  width: 33%;
+  position: relative;
 }
 .text-box {
   display: flex;
   position: relative;
   flex-direction: column;
   text-align: center;
-  width: 100%;
+  width: 80%;
+  padding-left: 4%;
 }
 
 .glyphs {
