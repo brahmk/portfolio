@@ -26,7 +26,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 800px;
+  width: 65%;
   height: 95vh;
   align-content: flex-start;
 }
@@ -35,7 +35,7 @@ h1 {
   display: flex;
   flex-direction: column;
   height: 95vh;
-  width: 20%;
+  width: 30%;
 }
 
 .card-box a {
@@ -52,7 +52,7 @@ h1 {
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
   height: 53%;
-  width: 33%;
+  width: 100%;
   font-weight: 500;
   position: relative;
 }
@@ -62,7 +62,7 @@ h1 {
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
   height: 52%;
-  width: 33%;
+  width: 100%;
   position: relative;
 }
 
@@ -72,7 +72,7 @@ h1 {
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
   height: 52%;
-  width: 35%;
+  width: 100%;
 }
 
 .card4 {
@@ -81,7 +81,7 @@ h1 {
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
   height: 52%;
-  width: 33%;
+  width: 100%;
   position: relative;
 }
 
@@ -91,7 +91,7 @@ h1 {
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
   height: 52%;
-  width: 33%;
+  width: 100%;
   position: relative;
 }
 
@@ -101,7 +101,7 @@ h1 {
   background-repeat: no-repeat;
   font-family: "Sorts Mill Goudy";
   height: 52%;
-  width: 33%;
+  width: 100%;
   position: relative;
 }
 .text-box {
@@ -110,7 +110,12 @@ h1 {
   flex-direction: column;
   text-align: center;
   width: 80%;
-  padding-left: 4%;
+  padding-left: 2%;
+}
+
+.tech {
+  color: darkblue;
+  margin-top: 0px;
 }
 
 .glyphs {
