@@ -9,11 +9,11 @@ export default function Contact() {
       <NavBox />
       <div className="contact-card">
         <div className="links-box">
-          <a href="mailto:brahm.kelly@gmail.com">email</a>
+          <a href="mailto:brahm.kelly@gmail.com">email x x</a>
           <br />
-          <a href="www.linkedin.com/in/b-andrew-kelly">LinkedIn</a>
+          <a href="http://www.linkedin.com/in/b-andrew-kelly">LinkedIn x x</a>
           <br />
-          <a href="www.github.com/brahmk">gitHub</a>
+          <a href="http://www.github.com/brahmk">gitHub x x x x</a>
         </div>
       </div>
     </div>

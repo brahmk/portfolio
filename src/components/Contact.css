@@ -10,7 +10,7 @@
 }
 
 .contact-card {
-  background-image: url(../img/contact-card-2.png);
+  background-image: url(../img/contact-card-3.png);
   height: 690px;
   width: 550px;
   margin-left: 30%;
@@ -33,6 +33,7 @@
   font-family: "Sorts Mill Goudy";
   font-weight: 800;
   text-decoration: none;
+  opacity: 0.1;
 }
 
 #sculptor {

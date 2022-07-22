@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
 
 .projects {
   height: 100vh;
@@ -17,6 +18,10 @@ h1 {
   position: absolute;
   color: darkred;
   text-decoration: underline;
+}
+
+h2 {
+  font-family: "Sorts Mill Goudy";
 }
 
 .card-box {
@@ -50,27 +55,28 @@ h1 {
   background-image: url("../img/card-creach.png");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy";
-  height: 53%;
+  font-family: "EB Garamond";
+  height: 52%;
   width: 100%;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
 }
 .card2 {
   background-image: url("../img/card-weather.png");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy";
+  font-family: "EB Garamond";
   height: 52%;
   width: 100%;
   position: relative;
+  font-weight: 700;
 }
 
 .card3 {
   background-image: url("../img/card-snake-slim.png");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy";
+  font-family: "EB Garamond";
   height: 52%;
   width: 100%;
 }
@@ -79,7 +85,7 @@ h1 {
   background-image: url("../img/card-owl.png");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy";
+  font-family: "EB Garamond";
   height: 52%;
   width: 100%;
   position: relative;
@@ -89,7 +95,7 @@ h1 {
   background-image: url("../img/card-frog.png");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy";
+  font-family: "EB Garamond";
   height: 52%;
   width: 100%;
   position: relative;
@@ -99,7 +105,7 @@ h1 {
   background-image: url("../img/card-tree.png");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy";
+  font-family: "EB Garamond";
   height: 52%;
   width: 100%;
   position: relative;
@@ -109,7 +115,7 @@ h1 {
   position: relative;
   flex-direction: column;
   text-align: center;
-  width: 80%;
+  width: 75%;
   padding-left: 2%;
 }
 
@@ -157,6 +163,15 @@ h1 {
 @font-face {
   font-family: "Zenda";
   src: url(../fonts/zenda.ttf);
+}
+
+@font-face {
+  font-family: "Goudy Med Bold";
+  src: url(../fonts/Goudy\ Mediaeval\ DemiBold.ttf);
+}
+@font-face {
+  font-family: "Antiquarian";
+  src: url(../fonts/Antiquarian.ttf);
 }
 
 @font-face {

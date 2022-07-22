@@ -1,6 +1,6 @@
 .navbox-wrapper {
   margin-left: 81%;
-  margin-top: 2.5%;
+  margin-top: 1%;
   z-index: 5;
   position: absolute;
   font-size: 36px;
@@ -14,7 +14,7 @@
   font-size: 65px;
   align-items: center;
   padding: 10px;
-  text-shadow: 2px 2px #83714f;
+  text-shadow: 2px 2px #0d0d0d;
 }
 
 a {
@@ -23,7 +23,6 @@ a {
   opacity: 0.65;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-shadow: #e1d5bf;
 }
 
 a:hover {
