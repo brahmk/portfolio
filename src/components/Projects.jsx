@@ -91,7 +91,7 @@ export default function Projects() {
         <div className="column">
           <div className="card6">
             <div className="text-box">
-              <h2>Free Reign</h2>
+              <h2>Web Content Filter Bypass</h2>
               <div>
                 <p className="tech">Visual Basic </p>
 
