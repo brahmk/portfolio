@@ -65,3 +65,41 @@
     transform: translatey(0px);
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+  .contact {
+    display: none;
+  }
+
+  .contact-card {
+    background-image: url(../img/contact-card-2.png);
+    height: 100vh;
+    width: 100vw;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+
+  .links-box {
+    position: relative;
+    margin-top: 55%;
+    margin-left: 10%;
+    font-family: "";
+    font-family: "Sorts Mill Goudy";
+  }
+
+  .links-box a {
+    font-family: "Sorts Mill Goudy";
+    font-weight: 800;
+    text-decoration: none;
+    opacity: 0.1;
+  }
+
+  #sculptor {
+    display: none;
+  }
+  #sculptor2 {
+    display: none;
+  }
+}
