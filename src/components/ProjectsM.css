@@ -22,8 +22,6 @@ h2 {
 .projects-m {
   /* background-color: rgb(218, 182, 128); */
   background-color: rgb(122, 101, 68);
-  height: 100%;
-  overflow: scroll;
 }
 
 .card-box-m {

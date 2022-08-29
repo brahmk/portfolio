@@ -29,7 +29,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <SplashM />
-        <ProjectsM /> <AboutM />
+        <ProjectsM />
+        <AboutM />
       </div>
     </BrowserRouter>
   );

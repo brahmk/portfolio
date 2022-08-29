@@ -22,8 +22,11 @@
   z-index: 0; */
 }
 
-element::-webkit-scrollbar {
+/* element::-webkit-scrollbar {
   display: none;
+} */
+
+@media only screen and (min-device-width: 480px) {
 }
 
 @keyframes wheelspin {
@@ -34,25 +37,3 @@ element::-webkit-scrollbar {
     transform: rotate(360deg);
   }
 }
-
-/* .contact {
-  z-index: 3;
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 150px;
-  position: absolute;
-  top: -559px;
-  left: 1211px;
-}
-
-.tarot {
-  z-index: 3;
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 150px;
-  position: absolute;
-  top: -559px;
-  left: 1211px;
-} */
