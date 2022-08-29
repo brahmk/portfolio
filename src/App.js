@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import SplashM from "./components/SplashM";
 import AboutM from "./components/AboutM";
+import ProjectsM from "./components/ProjectsM";
 
 function App() {
   window.mobileCheck = function () {
@@ -27,7 +28,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <AboutM />
+        <ProjectsM />{" "}
       </div>
     </BrowserRouter>
   );
