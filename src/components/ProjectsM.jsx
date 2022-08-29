@@ -1,11 +1,14 @@
 import React from "react";
-
+import work from "../img/work.png";
 import "./ProjectsM.css";
 
 export default function ProjectsM() {
   return (
     <div className="projects-m">
       {" "}
+      <div className="header-m">
+        <img src={work} />
+      </div>
       <div className="card-box-m">
         <div className="card1">
           <div className="text-box">

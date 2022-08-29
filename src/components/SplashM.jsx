@@ -8,8 +8,10 @@ export default function SplashM() {
   return (
     <div className="splash-m">
       <img className="bg" src={splash} />
-      <img className="work" src={work} />
-      <img className="about" src={about} />
+      <div className="img-box">
+        <img className="work" src={work} />
+        <img className="about" src={about} />
+      </div>
     </div>
   );
 }

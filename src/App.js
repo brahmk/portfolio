@@ -28,7 +28,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <ProjectsM />{" "}
+        <SplashM />
+        <ProjectsM /> <AboutM />
       </div>
     </BrowserRouter>
   );
