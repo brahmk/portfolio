@@ -1,6 +1,12 @@
 import React from "react";
 import work from "../img/work.png";
+import about from "../img/about.png";
 import "./ProjectsM.css";
+import garfield from "../img/caps/garfield.jpg";
+import monster from "../img/caps/monster.png";
+import aor from "../img/caps/aor.png";
+import weather from "../img/caps/weather.png";
+import midi from "../img/caps/midi.png";
 
 export default function ProjectsM() {
   return (
@@ -22,10 +28,13 @@ export default function ProjectsM() {
               <p>
                 • Built full-stack webapp utilizing custom API to connect to a
                 database of users, then map information to corresponding
-                front-end components
+                front-end components <br />
+                • Developed login system with secure password hashing to store
+                user information on document database
                 <br /> • Custom graphics designed using Adobe Illustrator,
                 Krita, and Inkscape
               </p>
+              <img src={garfield} />
             </div>
           </div>
         </div>
@@ -43,6 +52,7 @@ export default function ProjectsM() {
                 •Built custom UI in React to emulate old-school AOL experience
                 using React hooks to display messages and play sounds
               </p>
+              <img src={aor} />
             </div>
           </div>
         </div>
@@ -58,6 +68,7 @@ export default function ProjectsM() {
                 match Figma mock-up provided by design team
                 <br />• NFT project to launch in late July
               </p>
+              <img src={midi} />
             </div>
           </div>
         </div>
