@@ -180,9 +180,130 @@ h2 {
 }
 
 html {
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   overflow-y: hidden;
-  overflow-x: hidden;
+  overflow-x: hidden; */
   /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .card-box {
+    margin-top: 0%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-content: flex-start;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 80%;
+    position: relative;
+  }
+
+  .card1 {
+    background-image: url("../img/card-creach.png");
+    background-size: contain;
+
+    font-family: "EB Garamond";
+    height: 50%;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .card2 {
+    background-image: url("../img/card-creach.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "EB Garamond";
+    height: 700px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .card3 {
+    background-image: url("../img/card-creach.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "EB Garamond";
+    height: 700px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .card4 {
+    background-image: url("../img/card-creach.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "EB Garamond";
+    height: 700px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .card5 {
+    background-image: url("../img/card-creach.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "EB Garamond";
+    height: 700px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .card6 {
+    background-image: url("../img/card-creach.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "EB Garamond";
+    height: 700px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    padding-left: 2%;
+  }
+
+  .glyphs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    position: absolute;
+    margin-top: 20%;
+  }
+
+  #glyph1 {
+    display: none;
+  }
+  #glyph2 {
+    display: none;
+  }
+
+  #glyph3 {
+    display: none;
+  }
+
+  .navbox {
+    display: none;
+  }
 }
