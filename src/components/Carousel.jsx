@@ -56,23 +56,84 @@ return (
               <div>
                 <a href="https://aor-chatbot.web.app/">Backend Engineer </a>
                 <a href="https://github.com/brahmk/socket-chat"></a>
-                <p className="tech">nodeJS | Process Automation | AWS Cloud </p>
+                <p className="tech">Node.JS | Process Automation | AWS Cloud | </p>
                 <p>
-                  • Utilized rudimentary artifical intelligence to simulate
-                  conversation by responding to user input
+                  • Designed and developed full backend for an automated concierge subscription service using node.JS and mongoDB
                 </p>
                 <p>
-                  •Built custom UI in React to emulate old-school AOL experience
-                  using React hooks to display messages and play sounds
+                  • Created custom API to listen for user-submitted request forms, then perform queries to match user’s requests against reservation availability.
+                </p>
+                <p>
+                  • Implemented AWS Simple Email Service to generate marketing email targeting users when a match is discovered
+                </p>
+                <p>
+                  • Deployed to AWS EC2 Cloud instance.
+                </p>
+                <p>
+                  • Recreated marketing email from FIGMA mockup using only plaintext HTML with inline styling in nodeJS.
+
                 </p>
               </div>
             </div></SwiperSlide>
-        <SwiperSlide></SwiperSlide>
-        <SwiperSlide></SwiperSlide>
-        <SwiperSlide></SwiperSlide>
-        <SwiperSlide></SwiperSlide>
-        <SwiperSlide></SwiperSlide>
-        <SwiperSlide></SwiperSlide>
+        <SwiperSlide><div className="text-box">
+              <h2>MAP Fund</h2>
+              <div>
+                <a href="http://garfieldst.web.app">Frontend Engineer </a>
+                <a href="https://github.com/brahmk/pball-app"></a>
+                <p className="tech">
+                  CSS | HTML | Wordpress
+                </p>
+                <p>
+                  • Developed Grantee Announcement page and template for future use by converting Figma files to reusable UI components in Wordpress with custom CSS.
+
+                </p>
+                <p>
+                  • Updated UI components to ensure proper accessibility and adhere to atomic design principles.
+                </p>
+              </div>
+            </div></SwiperSlide>
+        <SwiperSlide><div className="text-box">
+              <h2>MidiModo NFT</h2>
+              <div>
+                <a href="http://garfieldst.web.app">Frontend Engineer </a>
+                <a href="https://github.com/brahmk/pball-app"></a>
+                <p className="tech">
+                  React | HTML | CSS
+                </p>
+                <p>
+                  • Created custom frontend components using ReactJS, HTML and CSS to match Figma mock-up provided by design team.
+
+                </p>
+                <p>
+                  • Built and delivered the application on-time as part of a team utilizing Kanban board during development.
+                </p>
+              </div>
+            </div></SwiperSlide>
+        <SwiperSlide><div className="text-box">
+              <h2>Garfield St. Paddleball</h2>
+              <div>
+                <a href="http://garfieldst.web.app">Frontend Engineer </a>
+                <a href="https://github.com/brahmk/pball-app"></a>
+                <p className="tech">
+                  React | | Node.JS | Express | MongoDB | HTML | CSS
+                </p>
+                <p>
+                  • Designed and built fullstack web-app using ReactJS, nodeJS, FirestoreDB, and custom UI/UX components.
+</p>
+                <p>
+                  • Utilized express API to connect to a mongoDB database and display corresponding information to a React frontend.
+                </p>
+                <p>
+                  • Developed user login system with JWT authentication and password encryption.
+                </p>
+                <p>
+                  • All graphics and UI/UX components designed and created using Adobe Creative Suite.
+                </p>
+                <p>
+                  • Deployed on Google Cloud Services and Firebase Hosting.
+                </p>
+              </div>
+            </div></SwiperSlide>
         <SwiperSlide><div className="text-box">
               <h2>Super Monster Ball 3D</h2>
               <div>
