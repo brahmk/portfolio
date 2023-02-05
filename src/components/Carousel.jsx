@@ -15,7 +15,7 @@ export default function Carousel () {
     
 return (
     <>
-    <div className="projects">
+    
       <Swiper
         effect={"cards"}
         grabCursor={true}
@@ -109,13 +109,14 @@ return (
                 </p>
               </div>
             </div></SwiperSlide>
+        
         <SwiperSlide><div className="text-box">
               <h2>Garfield St. Paddleball</h2>
               <div>
-                <a href="http://garfieldst.web.app">Frontend Engineer </a>
+                <a href="http://garfieldst.web.app">Fullstack Engineer </a>
                 <a href="https://github.com/brahmk/pball-app"></a>
                 <p className="tech">
-                  React | | Node.JS | Express | MongoDB | HTML | CSS
+                  React | Node.JS | Express | MongoDB | HTML | CSS
                 </p>
                 <p>
                   • Designed and built fullstack web-app using ReactJS, nodeJS, FirestoreDB, and custom UI/UX components.
@@ -134,20 +135,8 @@ return (
                 </p>
               </div>
             </div></SwiperSlide>
-        <SwiperSlide><div className="text-box">
-              <h2>Super Monster Ball 3D</h2>
-              <div>
-                <p className="tech">Unity | C#</p>
-
-                <p>• 3D video game demo built in Unity engine</p>
-                <p>
-                  • Utilized C# scripts for player controls, scorekeeping, and
-                  3D object behavior
-                </p>
-              </div>
-            </div></SwiperSlide>
       </Swiper>
-      </div>
+      
     </>
   );
 }

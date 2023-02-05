@@ -29,10 +29,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Carousel/>
-        {/* <SplashM />
-        <ProjectsM />
-        <AboutM /> */}
+        
+         <Splash/>
+        <Projects />
+        <Contact /> 
       </div>
     </BrowserRouter>
   );

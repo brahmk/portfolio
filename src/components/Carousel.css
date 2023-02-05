@@ -9,14 +9,7 @@ body {
   height: 100%;
 }
 
-.projects {
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../img/projects-2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-  }
+
 
 body {
   background: #eee;
@@ -55,6 +48,7 @@ body {
     text-align: center;
     width: 75%;
     padding-left: 2%;
+
   }
 
   .text-box a {
@@ -83,8 +77,8 @@ body {
   justify-content: center;
   border-radius: 18px;
   font-size: 22px;
-  font-weight: bold;
-  color: #380707;
+  font-weight: bolder;
+  color: #180202;
   font-family: "EB Garamond";
 
 }
@@ -115,6 +109,7 @@ body {
 
 .swiper-slide:nth-child(4n) {
     background-image: url("../img/card-owl.png");
+   
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(0,0,0,0);
@@ -122,19 +117,19 @@ body {
 }
 
 .swiper-slide:nth-child(5n) {
-    background-image: url("../img/card-snake.png");
+    background-image: url("../img/card-tree.png");
     background-size: cover;
     background-repeat: no-repeat;
   background-color: rgb(0,0,0,0);
 }
 
-.swiper-slide:nth-child(6n) {
-    background-image: url("../img/card-tree.png");
+/* .swiper-slide:nth-child(6n) {
+    background-image: url("../img/card-snake.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(0,0,0,0);
 
-}
+} */
 
 /* .swiper-slide:nth-child(7n) {
   background-color: rgb(35, 99, 19);
