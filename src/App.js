@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import SplashM from "./components/SplashM";
 import AboutM from "./components/AboutM";
 import ProjectsM from "./components/ProjectsM";
+import Carousel from "./components/Carousel";
 
 function App() {
   window.mobileCheck = function () {
@@ -28,9 +29,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <SplashM />
+        <Carousel/>
+        {/* <SplashM />
         <ProjectsM />
-        <AboutM />
+        <AboutM /> */}
       </div>
     </BrowserRouter>
   );
