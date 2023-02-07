@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
 
 .projects {
-  height: 100vh;
   width: 100vw;
   background-image: url(../img/projects-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
+  padding-top: 100px;
 }
 
 h1 {
@@ -139,7 +139,7 @@ h2 {
   width: 150px;
   animation: rotate 50s linear infinite forwards;
   margin-left: 10%;
-  margin-top: 40%;
+  margin-top: 30%;
   opacity: 0.8;
 }
 #glyph2 {
@@ -189,6 +189,10 @@ html {
 }
 
 @media only screen and (max-device-width: 480px) {
+
+  .projects{
+    height: 100vh;
+  }
   .card-box {
     margin-top: 0%;
     margin-left: 0;
@@ -307,3 +311,4 @@ html {
     display: none;
   }
 }
+

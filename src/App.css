@@ -20,6 +20,8 @@
   overflow-x: hidden;
   scrollbar-width: none;
   z-index: 0; */
+
+  overflow-y: hidden;
 }
 
 element::-webkit-scrollbar {

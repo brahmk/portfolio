@@ -6,8 +6,6 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <img src={sculptor} id="sculptor" />
-
-      <NavBox />
       <div className="contact-card">
         <div className="links-box">
           <a href="mailto:brahm.kelly@gmail.com">email x x x</a>

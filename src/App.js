@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Splash from "./components/Splash";
 import Projects from "./components/Projects";
@@ -8,8 +8,11 @@ import SplashM from "./components/SplashM";
 import AboutM from "./components/AboutM";
 import ProjectsM from "./components/ProjectsM";
 import Carousel from "./components/Carousel";
+import Layout from "./components/Layout";
+import NavBar from "./components/NavBar";
 
 function App() {
+
   window.mobileCheck = function () {
     let check = false;
     (function (a) {
@@ -27,14 +30,17 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        
-         <Splash/>
-        <Projects />
-        <Contact /> 
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <NavBar />
+
+        <Routes>
+          <Route path="/" element={<Splash />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

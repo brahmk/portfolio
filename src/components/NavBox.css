@@ -7,8 +7,7 @@
   font-family: "Zenda";
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  justify-content: flex-end;
   color: #e1d5bf;
   text-decoration: none;
   font-size: 65px;
