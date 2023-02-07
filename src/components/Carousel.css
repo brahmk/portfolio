@@ -2,15 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
 
 
-#app { height: 100% }
+/* #app { height: 100% }
 html,
 body {
   position: relative;
   height: 100%;
-}
+} */
 
 
-
+/* 
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .text-box {
     display: flex;
@@ -55,6 +55,13 @@ body {
     font-weight: bolder;
     opacity: 1;
   }
+
+  .text-box h3{
+    color: #a54730;
+ font-size: smaller;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  }
   
   .tech {
     color: darkblue;
@@ -66,7 +73,7 @@ body {
   }
 
 .swiper {
- margin-top: 3%;
+ margin-top: 2%;
   width:400px;
   height:640px;
 }

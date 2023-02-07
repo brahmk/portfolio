@@ -3,11 +3,19 @@
   position: absolute;
   background-image: url(../img/drop-bg.png);
   background-size: 100% 50%;
-
   z-index: -1;
   height: 100vh;
   overflow-x: hidden;
   animation: upward 20s linear infinite reverse;
+
+}
+.logo{
+  display: none;
+  height: 60%;
+  width: 65%;
+  z-index: 99;
+  margin-top: 80%;
+  margin-left: 36%;
 }
 
 .splash {
@@ -16,6 +24,8 @@
   background-image: url(../img/splasher-3.png);
   background-size: cover;
   overflow-x: hidden;
+  top: 0;
+    position: absolute;
 }
 
 .skeleton {
@@ -24,6 +34,7 @@
   margin-top: 15%;
   margin-left: 4%;
   height: 300px;
+  z-index: 5;
   width: 300px;
   opacity: 0.8;
 }
@@ -54,4 +65,7 @@
 }
 
 @media only screen and (max-device-width: 480px) {
+  .logo{
+    display: block;
+  }
 }

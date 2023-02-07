@@ -27,8 +27,8 @@ return (
             <div className="text-box">
               <h2>Allterco Robotics</h2>
               <div>
-                <a href="http://garfieldst.web.app">Fullstack Engineer </a>
-                <a href="https://github.com/brahmk/pball-app"></a>
+                <h3>Fullstack Engineer </h3>
+                
                 <p className="tech">
                   React | Node.js | Express | MongoDB | CSS | microJS
                 </p>
@@ -54,8 +54,8 @@ return (
         <SwiperSlide><div className="text-box">
               <h2>RVSpotDrop</h2>
               <div>
-                <a href="https://aor-chatbot.web.app/">Backend Engineer </a>
-                <a href="https://github.com/brahmk/socket-chat"></a>
+                <h3>Backend Engineer </h3>
+                
                 <p className="tech">Node.JS | Process Automation | AWS Cloud | </p>
                 <p>
                   • Designed and developed full backend for an automated concierge subscription service using node.JS and mongoDB
@@ -78,8 +78,8 @@ return (
         <SwiperSlide><div className="text-box">
               <h2>MAP Fund</h2>
               <div>
-                <a href="http://garfieldst.web.app">Frontend Engineer </a>
-                <a href="https://github.com/brahmk/pball-app"></a>
+                <h3>Frontend Engineer </h3>
+              
                 <p className="tech">
                   CSS | HTML | Wordpress
                 </p>
@@ -95,8 +95,8 @@ return (
         <SwiperSlide><div className="text-box">
               <h2>MidiModo NFT</h2>
               <div>
-                <a href="http://garfieldst.web.app">Frontend Engineer </a>
-                <a href="https://github.com/brahmk/pball-app"></a>
+                <h3>Frontend Engineer </h3>
+                
                 <p className="tech">
                   React | HTML | CSS
                 </p>
@@ -113,8 +113,8 @@ return (
         <SwiperSlide><div className="text-box">
               <h2>Garfield St. Paddleball</h2>
               <div>
-                <a href="http://garfieldst.web.app">Fullstack Engineer </a>
-                <a href="https://github.com/brahmk/pball-app"></a>
+                <h3>Fullstack Engineer </h3>
+                
                 <p className="tech">
                   React | Node.JS | Express | MongoDB | HTML | CSS
                 </p>
